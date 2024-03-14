@@ -1,0 +1,13 @@
+endpoints:
+  - path: /pets
+    method: GET
+    handler: getPets
+  - path: /pets
+    method: POST
+    handler: addPets
+  - path: /pets/{id}
+    method: GET
+    handler: getPet
+  - path: /pets/{id}/owner
+    method: GET
+    handler: getPetOwner
